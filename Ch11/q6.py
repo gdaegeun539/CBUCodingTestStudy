@@ -1,3 +1,6 @@
+# 프로그래머스 lv4 문제임
+
+
 def solution(food_times, k):
   answer = 0
   food_left = len(food_times)

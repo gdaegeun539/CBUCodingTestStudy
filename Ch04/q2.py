@@ -24,6 +24,7 @@ while True:
   if move_x < 0 or move_x >= n or move_y < 0 or move_y >= n or arr_map[move_x][
       move_y] == 1:  # 바다 혹은 이미 간 곳 아니면 지도 영역이 아닌 곳
     if sight_cnt == 4:  # 방향 못돌릴 때 이미 간 곳(뒤)은 바다로 마킹 완료: 못 돌아감
+      # but 이 경우는 도착 한 곳에 왼쪽과 오른쪽 두 곳만 길이 있을 때 한 쪽을 못감(결함)
       # move_x = now_x + dx[sight - 2]
       # move_y = now_y + dx[sight - 2]
       # if sight_change
