@@ -31,5 +31,5 @@ def solution(food_times, k):
       food_idx += 1
       times += 1
 
-  print(answer)
+  # print(answer)
   return answer
