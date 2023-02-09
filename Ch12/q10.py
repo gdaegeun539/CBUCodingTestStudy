@@ -1,4 +1,4 @@
-# 비효율적 풀이(38개중 4개 통과)
+# 비효율적 풀이(38개중 4개 통과, 22개 런타임에러)
 def rotate_right90(key):
     m = len(key) # 처음에 길이 구하기
     new_key = [[0] * m for _ in range(m)] # 회전용 키를 위한 공간

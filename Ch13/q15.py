@@ -1,11 +1,12 @@
-n, m, k, x = map(int, list(input().split()))
+# 오답: 시간초과
+
+n, m, k, x = map(int, input().split())
 
 # global graph
-graph = [[]] * (n + 1)
-print(graph)
+graph = [[] for _ in range(n + 1)]
 
 for loop in range(m):
-  st_node, fn_node = map(int, list(input().split()))
+  st_node, fn_node = map(int, input().split())
   graph[st_node].append(fn_node)
 
 # global lgth
