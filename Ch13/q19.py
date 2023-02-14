@@ -57,8 +57,8 @@ n = int(input())
 연산항배열 = list(map(int, sys.stdin.readline().rstrip().split()))
 연산자배열 = list(map(int, sys.stdin.readline().rstrip().split()))
 
-최대값 = -1000000001
-최소값 = 1000000001
+최대값 = -1000000001  # -10억1
+최소값 = 1000000001  # 10억1
 
 재귀연산해보기(연산항배열[1:], 연산자배열, 연산항배열[0])
 
