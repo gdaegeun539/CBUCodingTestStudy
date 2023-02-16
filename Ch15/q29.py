@@ -5,5 +5,3 @@ for _ in range(n):
   houses.append(int(input()))
 
 houses.sort()
-
-print(houses)
