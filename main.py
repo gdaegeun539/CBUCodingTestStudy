@@ -1,9 +1,9 @@
-n, x = map(int, input().split())
+n, c = map(int, input().split())
 
 houses = []
 for _ in range(n):
   houses.append(int(input()))
 
-houses.sort()
-
-print(houses)
+"""
+GG
+"""
