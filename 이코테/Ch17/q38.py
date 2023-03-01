@@ -1,5 +1,6 @@
 """
 시간초과
+접근 틀림
 """
 import heapq
 INT_INF = int(1e9)
@@ -29,7 +30,7 @@ for node in range(1, n+1):
         for edge in graph[now_node]:
           heapq.heappush(que, (dist + 1, edge))
 
-cnt = [[0] * (n+1)] 
+cnt = [0] * n+1
 for col in range(1, n+1):
   # cnt[col] = 0
   for row in range(1, n+1):
