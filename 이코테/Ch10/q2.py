@@ -1,4 +1,8 @@
-# import heapq
+"""
+== 백준 1647
+정답처리
+풀이시간 17분 46초 50
+"""
 from sys import stdin
 
 input2 = stdin.readline
