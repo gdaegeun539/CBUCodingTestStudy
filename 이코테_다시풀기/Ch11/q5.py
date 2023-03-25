@@ -1,4 +1,8 @@
+"""
+12분 57초
+"""
 from sys import stdin
+
 input2 = stdin.readline
 
 rslt = 0
