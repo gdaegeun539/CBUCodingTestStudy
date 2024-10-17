@@ -507,6 +507,14 @@ dev = ["pytest (>=7.0.1)", "pytest-timeout (>=2.1.0)", "build (>=0.7.0)", "pre-c
 doc = ["pytoolconfig", "sphinx (>=4.5.0)", "sphinx-autodoc-typehints (>=1.18.1)", "sphinx-rtd-theme (>=1.0.0)"]
 
 [[package]]
+name = "stdin"
+version = "2020.12.3"
+description = "stdin.size(), stdin.read() functions"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -611,7 +619,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "d0594ca336c607d86230ee7600d3c7b6f1b4300296ac8558faf57072a7d4f8fb"
+content-hash = "387ca064ccc19ad2808b627a0613df6a039f0734c64ad04dbe1c53fd564c0732"
 
 [metadata.files]
 aiohttp = []
@@ -654,6 +662,7 @@ replit = []
 replit-python-lsp-server = []
 requests = []
 rope = []
+stdin = []
 toml = []
 tomli = []
 typing-extensions = []
